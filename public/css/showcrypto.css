@@ -1,0 +1,71 @@
+
+.wrapper{
+}
+
+.showcontainer1{
+display:flex;
+flex-flow: row wrap;
+border-top: solid black 1px;
+padding: 5%;
+}
+
+
+.showcontainerflexitem{
+flex:auto;
+padding: 1.5%;
+}
+
+#showimage{ 
+    flex:1 1 0%;
+}
+
+.showproductimage{
+  width: 100px;
+  height: 100px;
+
+}
+
+#showtekstlang{
+   
+    flex: 5 1 0%;
+
+}
+
+#showknoppen{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 0%;
+}
+
+.inlineflexitem{
+margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+    }
+
+
+
+
+/*
+<div class="wrapper">
+
+
+    <div class="showcontainer1">
+            <div class="showcontainerflexitem" id="showimage"><img src="{{asset('images/'.$product->image )}}" class="showproductimage"/></div>
+            <div class="showcontainerflexitem" id="showtekstlang"><strong>{{$product->tekstlang}}</strong></div>
+            <div class="showcontainerflexitem" id="showknoppen">
+
+            <div class="inlineflexitem"> 
+                    <button onclick="location.href='{{ url('/cart/add')}}/{{$product->id}}'" class="btn btn-primary"type="button">Voeg toe aan winkelwagen</button>
+                </div>
+                <div class="inlineflexitem">    
+                    <p><a href="">Voeg toe aan wenslijst</a></p>
+                </div>
+            </div>
+          
+
+    </div>
+  </div>
+*/

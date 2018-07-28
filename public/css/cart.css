@@ -1,0 +1,99 @@
+.wrapper{
+}
+
+.cartindexcontainer1{
+display:flex;
+flex-flow: row wrap;
+border-top: solid black 1px;
+
+padding: 5%;
+}
+
+  
+
+
+.cartindexcontainerflexitem{
+flex:auto;
+padding: 3%;
+}
+
+#cartindeximage{ 
+    flex:1 1 0%;
+}
+
+.productimage{
+  width: 100px;
+  height: 100px;
+
+}
+
+#cartindexnaam{
+  
+    flex: 2 1 0%;
+
+}
+
+#cartindexbesturing{
+display:flex;
+flex-flow: column wrap;
+flex: 1 1 0%;
+
+}
+.cartindexbesturing{
+    flex:center;
+    }
+
+#cartindexbesturingaantal{
+    margin: 0 0 auto 0;
+}
+
+#cartindexinputaantal{
+    width: 50%;
+}
+
+
+
+
+
+	     #cartindexbesturingverwijder{}
+	     #cartindexbesturingwenslijst{}
+
+#cartindexproductaantal{}
+
+#cartindexproducttotaal{
+    flex: 1 1 0%;
+}
+
+
+.cartindexcontainer2{
+margin:50px;
+display:flex;
+justify-content: space-between;
+
+
+}
+
+#cartindexcoupon{
+display:flex;
+flex-flow: column wrap;
+flex:1 1 0%;
+}
+
+.opvulling{
+    flex:3 1 0%;
+
+}
+
+#cartindextotaalflexitem{
+    flex:1 1 0%;
+
+}
+
+
+
+.cartindextotaal{
+font-style: bolt;
+
+}
+
+
